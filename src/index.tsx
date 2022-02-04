@@ -5,7 +5,14 @@ import React from 'react';
 import App from './App';
 import './index.css';
 
-window.mountBlue = (containerId) => {
+declare global {
+	interface Window {
+		mountBlue: Function;
+		unmountBlue: Function;
+	}
+}
+
+window.mountBlue = (containerId: string) => {
 	ReactDOM.render(
 		<React.StrictMode>
 			<BrowserRouter>
@@ -16,7 +23,7 @@ window.mountBlue = (containerId) => {
 	);
 };
 
-window.unmountBlue = (containerId) => {
+window.unmountBlue = (containerId: string) => {
 	const container = document.getElementById(containerId);
 
 	if (container) ReactDOM.unmountComponentAtNode(container);

@@ -1,7 +1,14 @@
+import { ReactChild } from 'react';
+
 import ColorSelector from '../ColorSelector';
 import './index.css';
 
-function ContentWrapper({ backgroundColor, children }) {
+interface ContentWrapperProps {
+	backgroundColor: string;
+	children: ReactChild;
+}
+
+function ContentWrapper({ backgroundColor, children }: ContentWrapperProps) {
 	return (
 		<div className="blue-content-wrapper" style={{ backgroundColor }}>
 			<div>
