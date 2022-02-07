@@ -1,5 +1,4 @@
 import ContentWrapper from '../../components/ContentWrapper';
-import './index.css';
 
 function Home() {
 	return (
