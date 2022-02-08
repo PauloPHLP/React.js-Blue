@@ -13,6 +13,7 @@ function ContentWrapper({ backgroundColor, children }: ContentWrapperProps) {
 		<div className="blue-content-wrapper" style={{ backgroundColor }}>
 			<div>
 				<div>
+					<h3>React.js</h3>
 					<h1>Welcome to the Blue app!</h1>
 					<p>Please, select a blue shade</p>
 				</div>
