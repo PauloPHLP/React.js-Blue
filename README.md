@@ -10,7 +10,7 @@ A simple React.js app for switch between colors. This application can also be us
 
 ## 🛠️ Running the app
 
-- Clone this repository by using this command:
+- Clone this repository by typing the following command on your terminal:
 
   `git clone https://github.com/PauloPHLP/React.js-Blue.git`
 
