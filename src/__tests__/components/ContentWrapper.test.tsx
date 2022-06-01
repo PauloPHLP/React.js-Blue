@@ -15,7 +15,7 @@ describe('ContentWrapper', () => {
 	});
 
 	test('Renders ContentWrapper with correct texts', () => {
-		const { container, getByText } = renderWithWrappers(
+		const { getByText } = renderWithWrappers(
 			<ContentWrapper backgroundColor="darkgray">
 				<div>Content Wrapper</div>
 			</ContentWrapper>
