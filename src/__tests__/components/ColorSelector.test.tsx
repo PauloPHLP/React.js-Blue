@@ -1,5 +1,5 @@
 import { renderWithWrappers } from '../../_shared/test';
-import ColorSelector from '.';
+import ColorSelector from '../../components/ColorSelector';
 
 describe('ColorSelector', () => {
 	test('Renders ColorSelector without crashing', () => {

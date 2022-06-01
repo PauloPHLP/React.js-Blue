@@ -1,5 +1,5 @@
 import { renderWithWrappers } from '../../_shared/test';
-import AquaPage from '.';
+import AquaPage from '../../pages/AquaPage';
 
 describe('AquaPage', () => {
 	test('Renders AquaPage without crashing and with the correct properties', () => {

@@ -1,5 +1,5 @@
 import { renderWithWrappers } from '../../_shared/test';
-import CornFlowerBluePage from '.';
+import CornFlowerBluePage from '../../pages/CornFlowerBluePage';
 
 describe('CornFlowerBluePage', () => {
 	test('Renders CornFlowerBluePage without crashing and with the correct properties', () => {
