@@ -1,0 +1,33 @@
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: 12px;
+  background-color: cornflowerblue;
+}
+
+.counter-button {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+}
+
+.counter-button:hover {
+  cursor: pointer;
+}
+
+.amount {
+  color: aliceblue;
+}
