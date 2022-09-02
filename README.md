@@ -6,7 +6,7 @@
 
 ## 🔎️ Description
 
-A simple React.js app for switch between colors. This application can also be used on a Micro Front-end context. Click <a href="https://github.com/PauloPHLP/React.js-Host" target="__blank">here</a> to check more details.
+A React.js app to switch between background colors. This app can also be used on a Micro Front-end context. Click <a href="https://github.com/PauloPHLP/React.js-Host" target="__blank">here</a> to check more details.
 
 ## 🛠️ Running the app
 
